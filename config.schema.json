@@ -1,0 +1,113 @@
+{
+	"pluginAlias": "HomebridgeRFXComDioButton",
+	"pluginType": "platform",
+	"singular": true,
+	"schema": {
+		"name": {
+			"title": "Name",
+			"type": "string",
+			"required": true,
+			"default": "Homebridge RFXCom Dio Button"
+		}
+	},
+	"serialport": {
+		"title": "Serial Port Path",
+		"type": "string",
+		"placeholder": "/dev/tty",
+		"required": true,
+		"description": "Set the RFXCOM serial port path, like /dev/tty.usbserial-A129KNRC"
+	},
+	"devices": {
+		"type": "array",
+		"items": {
+			"title": "Elements",
+			"type": "object",
+			"properties": {
+				"uniqueid": {
+					"title": "ID",
+					"type": "string",
+					"placeholder": "0001",
+					"required": true,
+					"description": "Set the device ID to allows Homebridge identify device, it must be unique."
+				},
+				"rfid": {
+					"title": "RF ID",
+					"type": "string",
+					"required": true,
+					"description": "Set the device RF id retrieved with RFX COM Manager."
+				},
+				"type": {
+					"title": "Type",
+					"type": "string",
+					"required": true,
+					"description": "Set the device type, like : button, ..."
+				},
+				"name": {
+					"title": "Name",
+					"type": "string",
+					"required": true,
+					"description": "Set the device ID to allows Homebridge identify device."
+				},
+				"manufacturer": {
+					"name": "Manufacturer",
+					"type": "string",
+					"placeholder": "Homebridge",
+					"default": "Homebridge",
+					"required": true,
+					"description": "Set the manufacturer name for display in the Home app."
+				},
+				"model": {
+					"name": "Model",
+					"type": "string",
+					"placeholder": "Button",
+					"default": "RF Button",
+					"required": true,
+					"description": "Set the model for display in the Home app."
+				},
+				"serialnumber": {
+					"name": "Serial Number",
+					"type": "string",
+					"required": true,
+					"default": "01020304X",
+					"placeholder": "SerialNumber",
+					"description": "Set the serial number for display in the Home app."
+				},
+				"firmwarerevision": {
+					"name": "Firmware Revision",
+					"type": "string",
+					"description": "Set the firmware revision for display in the Home app."
+				},
+				"entriesid": {
+					"name": "Entries ID",
+					"type": "string",
+					"default": "unitCode",
+					"description": "Set the entries field ID of button."
+				},
+				"entries": {
+					"title": "Entries",
+					"type": "object",
+					"properties": {
+						"name": {
+							"title": "Name",
+							"type": "string",
+							"placeholder": "Name of entry",
+							"required": true
+						},
+						"buttons": {
+							"title": "States",
+							"type": "array",
+							"uniqueItems": true,
+							"placeholder": "Values received",
+							"required": true,
+							"items": {
+								"title": "State",
+								"type": "string"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
