@@ -1,5 +1,5 @@
 {
-	"pluginAlias": "HomebridgeRFXComDioButton",
+	"pluginAlias": "HomebridgeRFXComDevices",
 	"pluginType": "platform",
 	"singular": true,
 	"schema": {
@@ -7,7 +7,7 @@
 			"title": "Name",
 			"type": "string",
 			"required": true,
-			"default": "Homebridge RFXCom Dio Button"
+			"default": "Homebridge RFXCom Devices"
 		}
 	},
 	"serialport": {

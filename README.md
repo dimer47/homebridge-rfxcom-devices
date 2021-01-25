@@ -26,7 +26,7 @@ This is a simple plugin configuration, you need to register your plugin in homeb
 {
     "name": "Homebridge RFXCom Dio Button",
     "serialport": "/dev/tty.usbserial-A129KNRC",
-    "platform": "HomebridgeRFXComDioButton",
+    "platform": "HomebridgeRFXComDevices",
     "devices": [
         {
             "uniqueid": "0x0235A99E",
