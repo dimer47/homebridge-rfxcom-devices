@@ -1,0 +1,125 @@
+{
+	"plugin_map": {
+		"plugin_name": "homebridge-rfxcom-devices"
+	},
+	"serialport": "/dev/tty.usbserial-A129KNRC",
+	"name": "Homebridge RFXCom Devices",
+	"platform": "HomebridgeRFXComDevices",
+	"devices": [
+		{
+			"uniqueid": "0x0010A127",
+			"rfid": "0x0010A127",
+			"type": "button",
+			"name": "BT Porte Clé",
+			"manufacturer": "CHACON DiO",
+			"model": "CH54592",
+			"serialnumber": "0001",
+			"entriesid": "unitCode",
+			"entries": {
+				"16": {
+					"name": "command",
+					"buttons": [
+						"On"
+					]
+				}
+			}
+		},
+		{
+			"uniqueid": "0x0235A99R",
+			"rfid": "0x02359C0E",
+			"type": "button",
+			"name": "Bouton murale entrée",
+			"manufacturer": "CHACON DiO",
+			"model": "54700",
+			"serialnumber": "0001",
+			"entriesid": "unitCode",
+			"entries": {
+				"1": {
+					"name": "command",
+					"buttons": [
+						"On",
+						"Off"
+					]
+				},
+				"2": {
+					"name": "command",
+					"buttons": [
+						"On",
+						"Off"
+					]
+				}
+			}
+		},
+		{
+			"uniqueid": "0x02359E66",
+			"rfid": "0x02359E66",
+			"type": "button",
+			"name": "Bouton murale entrée couloir",
+			"manufacturer": "CHACON DiO",
+			"model": "54700",
+			"serialnumber": "0002",
+			"firmwarerevision": "0.1",
+			"entriesid": "unitCode",
+			"entries": {
+				"1": {
+					"name": "command",
+					"buttons": [
+						"On",
+						"Off"
+					]
+				},
+				"2": {
+					"name": "command",
+					"buttons": [
+						"On",
+						"Off"
+					]
+				}
+			}
+		},
+		{
+			"uniqueid": "0x0235A99E",
+			"rfid": "0x0235A99E",
+			"type": "button",
+			"name": "Bouton murale chambre/couloir",
+			"manufacturer": "CHACON DiO",
+			"model": "54700",
+			"serialnumber": "0003",
+			"entriesid": "unitCode",
+			"entries": {
+				"1": {
+					"name": "command",
+					"buttons": [
+						"On",
+						"Off"
+					]
+				},
+				"2": {
+					"name": "command",
+					"buttons": [
+						"On",
+						"Off"
+					]
+				}
+			}
+		},
+		{
+			"uniqueid": "0x01CC19BE",
+			"rfid": "0x01CC19BE",
+			"type": "button",
+			"name": "Bouton murale sonette",
+			"manufacturer": "CHACON DiO",
+			"model": "CH84201",
+			"serialnumber": "0004",
+			"entriesid": "unitCode",
+			"entries": {
+				"1": {
+					"name": "command",
+					"buttons": [
+						"Group On"
+					]
+				}
+			}
+		}
+	]
+},
