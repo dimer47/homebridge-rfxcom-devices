@@ -2,7 +2,7 @@
   "private": false,
   "displayName": "Homebridge RFXCom Devices",
   "name": "homebridge-rfxcom-devices",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "It is simple Homebridge platform plugin allowing 433mhz RF device support to Homekit.",
   "license": "Creative Commons NonCommercial ShareAlike 4.0 International",
   "repository": {
