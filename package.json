@@ -10,7 +10,7 @@
     "url": "git@github.com:dimer47/homebridge-rfxcom-devices.git"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org/"
   },
   "bugs": {
     "url": "https://github.com/dimer47/homebridge-rfxcom-devices/issues"
