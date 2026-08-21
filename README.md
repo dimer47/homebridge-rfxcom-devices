@@ -1,8 +1,5 @@
 # Homebridge RFXCom Devices
 
-![Release : 2.0 ](https://img.shields.io/github/package-json/v/dimer47/homebridge-rfxcom-devices?color=red&style=flat-square) ![Last update](https://img.shields.io/github/last-commit/dimer47/homebridge-rfxcom-devices?color=yellow&label=Last%20update&style=flat-square) ![Dependency size](https://img.shields.io/bundlephobia/minzip/homebridge-rfxcom-devices?color=green&label=dependency%20size&style=flat-square) ![Repo size](https://img.shields.io/github/repo-size/dimer47/homebridge-rfxcom-devices?style=flat-square) ![Downloads](https://img.shields.io/npm/dt/homebridge-rfxcom-devices?style=flat-square) [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=flat-square)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-
-
 This Homebridge platform plugin allowing 433mhz RF device support to Homekit.
 You need RF Gateway, personaly I used RFXtrx433XL (http://www.rfxcom.com/RFXtrx433XL).
 
@@ -76,3 +73,8 @@ This is a simple plugin configuration, you need to register your plugin in homeb
         }
     ]
 }
+```
+
+## 📊 Project status
+
+![Version](https://img.shields.io/github/package-json/v/dimer47/homebridge-rfxcom-devices?color=red&style=flat-square) ![Last update](https://img.shields.io/github/last-commit/dimer47/homebridge-rfxcom-devices?color=yellow&label=Last%20update&style=flat-square) ![Unpacked size](https://img.shields.io/npm/unpacked-size/homebridge-rfxcom-devices?color=green&style=flat-square) ![Repo size](https://img.shields.io/github/repo-size/dimer47/homebridge-rfxcom-devices?style=flat-square) ![Downloads](https://img.shields.io/npm/dt/homebridge-rfxcom-devices?style=flat-square) [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=flat-square)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
