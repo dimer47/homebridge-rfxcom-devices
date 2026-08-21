@@ -3,7 +3,8 @@ dist
 
 # Ignore IDE Folders
 .history
-.github
+.github/*
+!.github/dependabot.yml
 .vscode
 .idea
 
@@ -125,3 +126,6 @@ dist
 .yarn/unplugged
 .yarn/build-state.yml
 .pnp.*
+
+# macOS
+.DS_Store
